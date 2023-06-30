@@ -3,6 +3,7 @@
 The OS kernel is implemented for the RISC V architecture and runs in using the qemu emulator. There are no external librarires that were used for OS kernel implementation, which means that no host operating system calls are allowed (threads, memory allocation, etc.)
 
 OS kernel display:
+
 ![image](https://github.com/smateja12/os1_project/assets/74740382/25033b4f-abaf-4c51-8a5c-b2717e5a1619)
 
 The ABI (application binary interface) serves as a binary interface for system calls, accessed through software interrupts. It facilitates the transfer of arguments to system calls via processor registers, enables mode switching from system to user, and facilitates entry into kernel code.
